@@ -46,3 +46,7 @@
 --Revenue gneratd for each month
 --SELECT SaleDate, sum(Revenue) AS Revenue_Per_Date FROM Salesdata GROUP BY SaleDate
 
+--ALTER TABLE SalesData
+--ADD Email VARCHAR(100)
+
+SELECT * FROM SalesData
